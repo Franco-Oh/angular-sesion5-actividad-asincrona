@@ -1,0 +1,14 @@
+label{
+    color: white;
+}
+
+li{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@media screen and (min-width:1000px) {
+    li{
+        font-size: 50px;
+    }
+}

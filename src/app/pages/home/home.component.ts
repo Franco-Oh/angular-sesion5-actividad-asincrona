@@ -6,7 +6,7 @@ import { Component, EventEmitter, Input, Output, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  num1 = '';
   constructor() { }
 
   ngOnInit(): void {

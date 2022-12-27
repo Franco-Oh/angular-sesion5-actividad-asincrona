@@ -1,10 +1,10 @@
-<div class="justify-content-center align-items-center text-center">
-    <p>Operaciones</p>
-    <button type="button" class="btn btn-success col-4 m-3">(+) SUMAR</button>
-    <button type="button" class="btn btn-danger col-4 m-3">(-) RESTAR</button>
-    <button type="button" class="btn btn-primary col-4 m-3">(*) MULTIPLICAR</button>
-    <button type="button" class="btn btn-warning col-4 m-3">(/) DIVIDIR</button>
-    <button type="button" class="btn btn-secondary col-4 m-3">TODO</button>
+<div class="justify-content-center align-items-center text-center border bg-info bg-gradient bg-opacity-50">
+    <h4 class="my-4">Operaciones</h4>
+    <button type="button" class="btn btn-success col-4 m-3" (click)="sumar()">(+)<span class="d-md-inline d-none"> SUMAR</span></button>
+    <button type="button" class="btn btn-danger col-4 m-3" (click)="restar()">( - )<span class="d-md-inline d-none"> RESTAR</span></button>
+    <button type="button" class="btn btn-primary col-4 m-3" (click)="multiplicar()">( * )<span class="d-lg-inline d-none"> MULTIPLICAR</span></button>
+    <button type="button" class="btn btn-warning col-4 m-3" (click)="dividir()">( / )<span class="d-md-inline d-none"> DIVIDIR</span></button>
+    <button type="button" class="btn btn-secondary col-4 m-3" (click)="operaciones()"><span class="d-md-none d-inline">#</span><span class="d-md-inline d-none"> TODO</span></button>
 </div>
 
 
